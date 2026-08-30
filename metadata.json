@@ -1,0 +1,6 @@
+{
+  "name": "SkillBridge AI",
+  "description": "AI-Powered Personalized Skill Gap Analysis & Job Matching Engine for ITI Graduates",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
