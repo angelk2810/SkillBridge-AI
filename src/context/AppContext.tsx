@@ -26,7 +26,8 @@ export type AppView =
   | 'resume-analyzer'
   | 'career-ai'
   | 'progress'
-  | 'institution-insights';
+  | 'institution-insights'
+  | 'map';
 
 export interface ToastNotification {
   id: string;

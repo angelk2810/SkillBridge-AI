@@ -17,6 +17,7 @@ import { ResumeAnalyzerPage } from './views/ResumeAnalyzerPage';
 import { CareerAIChat } from './views/CareerAIChat';
 import { CareerProgressPage } from './views/CareerProgressPage';
 import { InstitutionInsightsPage } from './views/InstitutionInsightsPage';
+import { MapPage } from './views/MapPage';
 
 const AppContent: React.FC = () => {
   const { currentView } = useApp();
@@ -44,6 +45,8 @@ const AppContent: React.FC = () => {
         return <CareerProgressPage />;
       case 'institution-insights':
         return <InstitutionInsightsPage />;
+      case 'map':
+        return <MapPage />;
       default:
         return <StudentDashboard />;
     }

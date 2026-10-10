@@ -14,7 +14,8 @@ import {
   ChevronRight,
   ShieldCheck,
   HelpCircle,
-  Home
+  Home,
+  Map
 } from 'lucide-react';
 
 interface SidebarProps {
@@ -34,7 +35,8 @@ export const Sidebar: React.FC<SidebarProps> = ({ isOpenMobile, onCloseMobile })
     { id: 'resume-analyzer', label: 'AI Resume Analyzer', icon: FileText, desc: 'ATS Keyword Match' },
     { id: 'career-ai', label: 'CareerAI Assistant', icon: Bot, badge: 'Live AI', desc: 'Vocational Career Mentor' },
     { id: 'progress', label: 'Career Progress', icon: TrendingUp, desc: 'Milestones & Badges' },
-    { id: 'institution-insights', label: 'Institution Insights', icon: Building2, desc: 'ITI Analytics Dashboard' }
+    { id: 'institution-insights', label: 'Institution Insights', icon: Building2, desc: 'ITI Analytics Dashboard' },
+    { id: 'map', label: 'Google Maps', icon: Map, desc: 'Explore nearby locations' }
   ];
 
   const handleNavClick = (view: AppView) => {
